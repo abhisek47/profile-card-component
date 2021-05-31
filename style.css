@@ -1,0 +1,41 @@
+:root{
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background: var(--dark-cyan);
+}
+.container{
+    margin: 200px 600px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+
+    background: #fff;
+
+
+}
+
+.header-img{
+    width: 300px;
+    height: 40%;
+}
+
+.profile-icon{
+    display: flex;
+    
+
+    
+}
+
+
